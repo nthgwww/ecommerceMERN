@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.bg-gray{
+    background-color: #000000c1;
+
+}
+
+.headerWrapper .top-strip {
+    padding: 8px 0;
+}
+
+.headerWrapper .top-strip p{
+    color:#fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.headerWrapper .header {
+    width: 70%;
+    height: auto;
+    padding: 15px 0;
+}
+
+.logoWrapper img{
+    width: 70%;
+}
+
+.headerWrapper .header .part2 .countryDrop {
+    width: 150px;
+    height: 60px;
+    min-width: 150px; 
+    color:  #000 !important;  
+}
+
+.headerWrapper .header .part2 .countryDrop{
+    text-align: left;
+    justify-content: flex-start !important;
+    border: 1px solid rgba(0,0,0,0.2) !important;
+    border-radius: 7px !important;
+}
+
+.headerWrapper .header .part2 .countryDrop .label{
+    font-size: 12px !important; text-transform:capitalize !important; color: rgba(0,0,0,0.7) !important; font-weight: 400 !important;
+}
+
+.headerWrapper .header .part2 .countryDrop .name{
+    font-size: 14px !important; text-transform:capitalize !important; color: rgba(0,0,0,0.8) !important; font-weight: 700 !important; 
+}   
