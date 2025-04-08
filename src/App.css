@@ -12,9 +12,18 @@ body {
 .bg-gray {
   background-color: #000000c1;
 }
+@media (min-width: 1300px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1200px;
+  }
+}
 
-.container{
-    min-width: 90%;
+.container {
+  min-width: 90%;
 }
 
 .headerWrapper .top-strip {
@@ -28,9 +37,9 @@ body {
 }
 
 .headerWrapper .header {
-  width: 70%;
+  width: 100%;
   height: auto;
-  padding: 15px 0;
+  padding: 25px 0;
 }
 
 .logoWrapper img {
@@ -143,7 +152,7 @@ header .part3 .circle svg {
 }
 .cartTab .count {
   position: absolute;
-  top: 11px;
+  top: 28px;
   right: 14px;
   background-color: #ea2b0f;
   border-radius: 50%;
@@ -151,4 +160,45 @@ header .part3 .circle svg {
   display: flex;
   width: 20px;
   height: 20px;
+}
+
+nav .allCatTab {
+  background: #000000a5;
+  padding: 10px 15px !important;
+  border-radius: 30px !important;
+}
+nav .allCatTab * {
+  color: #fff;
+}
+nav .allCatTab .text {
+  font-weight: 600;
+}
+nav .allCatTab .icon1 svg {
+  font-size: 20px !important;
+}
+nav .allCatTab .icon2 svg {
+  font-size: 15px !important;
+}
+nav .navPart2 ul{
+    margin-bottom: 0px; 
+}
+nav .navPart2 ul li a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 25px;
+}
+nav .navPart2 ul li a svg{
+    font-size: 20px;
+}
+
+nav .navPart2 ul li a:hover{
+    background: #f0faff;
+    color:#113949
 }
