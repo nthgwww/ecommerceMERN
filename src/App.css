@@ -57,6 +57,11 @@ body {
   width: 70%;
 }
 
+.headerWrapper{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+    padding-bottom: 10px;
+}
+
 .headerWrapper .header .part2 .countryDrop {
   width: 170px;
   height: 60px;
@@ -210,6 +215,12 @@ header .part3 .circle svg {
   justify-content: flex-start !important;
   padding: 10px 20px !important;
 }
+.locationModal .countryList li button:hover {
+    background: #f1f1f1;
+  }
+  .locationModal .countryList li button.active {
+    background: #ccc !important;
+  }
 nav .navPart1 {
   min-width: 20%;
   flex: 0 0 20%;
