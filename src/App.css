@@ -1,57 +1,154 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.bg-gray{
-    background-color: #000000c1;
+.bg-gray {
+  background-color: #000000c1;
+}
 
+.container{
+    min-width: 90%;
 }
 
 .headerWrapper .top-strip {
-    padding: 8px 0;
+  padding: 8px 0;
 }
 
-.headerWrapper .top-strip p{
-    color:#fff;
-    font-weight: 400;
-    font-size: 16px;
+.headerWrapper .top-strip p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .headerWrapper .header {
-    width: 70%;
-    height: auto;
-    padding: 15px 0;
+  width: 70%;
+  height: auto;
+  padding: 15px 0;
 }
 
-.logoWrapper img{
-    width: 70%;
+.logoWrapper img {
+  width: 70%;
 }
 
 .headerWrapper .header .part2 .countryDrop {
-    width: 150px;
-    height: 60px;
-    min-width: 150px; 
-    color:  #000 !important;  
+  width: 170px;
+  height: 60px;
+  min-width: 170px;
+  color: #000 !important;
+  padding: 10px 15px;
 }
 
-.headerWrapper .header .part2 .countryDrop{
-    text-align: left;
-    justify-content: flex-start !important;
-    border: 1px solid rgba(0,0,0,0.2) !important;
-    border-radius: 7px !important;
+.headerWrapper .header .part2 .countryDrop {
+  text-align: left;
+  justify-content: flex-start !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  border-radius: 7px !important;
 }
 
-.headerWrapper .header .part2 .countryDrop .label{
-    font-size: 12px !important; text-transform:capitalize !important; color: rgba(0,0,0,0.7) !important; font-weight: 400 !important;
+.headerWrapper .header .part2 .countryDrop .label {
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+  color: rgba(0, 0, 0, 0.5) !important;
+  font-weight: 400 !important;
+  line-height: 16px;
 }
 
-.headerWrapper .header .part2 .countryDrop .name{
-    font-size: 14px !important; text-transform:capitalize !important; color: rgba(0,0,0,0.8) !important; font-weight: 700 !important; 
-}   
+.headerWrapper .header .part2 .countryDrop .name {
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+  font-weight: 700 !important;
+}
+
+.headerWrapper .header .part2 .countryDrop span.ml-auto svg {
+  opacity: 0.7;
+}
+
+header .headerSearch {
+  width: 60%;
+  height: 60px;
+  background: #f3f4f7;
+  padding: 5px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+header .headerSearch input {
+  background: transparent !important;
+  outline: none !important;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 45px;
+  border: 0px !important;
+  padding: 0px 20px !important;
+}
+
+header .headerSearch input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5) !important;
+  font-size: 14px !important;
+}
+
+header .headerSearch button {
+  position: absolute;
+  top: 0px;
+  z-index: 100;
+  right: 15px;
+  margin-top: 10px;
+  min-width: 40px !important;
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 50% !important;
+  border: none !important;
+  color: #000;
+}
+
+header .headerSearch button svg {
+  font-size: 20px !important;
+}
+
+header .part3 .circle {
+  align-items: center;
+  justify-content: center;
+  min-width: 45px !important;
+  height: 45px !important;
+  width: 45px !important;
+  border-radius: 50% !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  color: #000;
+}
+
+header .part3 .circle svg {
+  font-size: 20px;
+}
+
+.cartTab button {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+}
+.cartTab button {
+  background: #fff1ee !important;
+}
+.cartTab button svg {
+  color: #ea2b0f !important;
+}
+.cartTab .count {
+  position: absolute;
+  top: 11px;
+  right: 14px;
+  background-color: #ea2b0f;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
