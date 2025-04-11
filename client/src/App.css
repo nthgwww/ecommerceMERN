@@ -464,9 +464,10 @@ nav .navPart2 ul li:hover .submenu {
   overflow: hidden;
 }
 
-.productRow .hd {
+.hd {
   font-size: 25px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .viewAllBtn {
@@ -585,5 +586,204 @@ nav .navPart2 ul li:hover .submenu {
 }
 
 .badge-primary {
+  background: #2bbef9 !important;
+}
+
+.homeCat {
+  padding: 35px 0px;
+}
+
+.homeCat .swiper {
+  overflow: inherit !important;
+}
+
+.homeCat .swiper .item {
+  padding: 14px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.homeCat .swiper .item img {
+  width: 80%;
+}
+
+.homeCat .swiper-button-prev,
+.homeCat .swiper-button-next {
+  top: -30px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.homeCat .swiper-button-prev {
+  right: 68px !important;
+  left: inherit !important;
+}
+
+.homeCat .swiper-button-prev::after,
+.homeCat .swiper-button-next::after {
+  font-size: 12px !important;
+}
+
+.productRow2 {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.productRow2 .productItem { 
+  overflow: hidden;
+  border-right: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.bannerSec{
+  gap: 15px;
+}
+
+.newsLetterSection{
+  width: 100%;
+  height: auto;
+  padding: 70px 0px;
+  background: #233a95;
+  position: relative;
+  overflow: hidden;
+}
+
+.newsLetterSection p {
+  font-size: 16px;  
+  margin: 10px 0px !important;
+}
+
+.newsLetterSection .col-md-6{
+  position: static !important;
+}
+
+.newsLetterSection h3{
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.newsLetterSection .row .textlight{
+  color: #fff !important;
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.newsLetterSection img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.newsLetterSection form {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  padding: 10px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.newsLetterSection form svg{
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  font-size: 25px;
+  opacity: 0.3;
+}
+
+.newsLetterSection form input{
+  width: 100%;
+  height: 40px;
+  background: #fff;
+  outline: none !important;
+  border: 0px !important;
+  padding-left: 40px;
+  padding-right: 200px;
+}
+
+.newsLetterSection form button{
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  background: #233a95;
+  font-size: 16px !important;
+  padding: 10px 25px !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+}
+
+footer{
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  background: #fff !important;
+  padding: 35px 0px;
+}
+
+footer .topInfo{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+  padding-bottom: 20px;
+}
+
+footer .topInfo .col {
+  padding: 15px 15px;
+  padding-left: 40px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+footer .topInfo .col:last-child {
+  border-right: none !important;
+}
+
+footer .topInfo .col svg{
+  font-size: 26px;
+}
+
+footer .topInfo .col span{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+footer .linksWrap h5{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+footer .linksWrap ul li{
+  list-style: none;
+  margin-bottom: 10px;
+  opacity: 0.7  !important;
+}
+footer .linksWrap ul li a{
+  color: #201d1d !important;
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .linksWrap ul li a:hover{
+  text-decoration: none;
+}
+
+.container .copyright svg{
+  color: #13131390;
+  font-size: 22px;
+  margin-right: 4px;
+}
+
+footer .linksWrap ul li a{
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+footer .linksWrap ul li a:hover{
+  background: #2bbef9 !important;
+}
+
+footer .linksWrap svg{
+  color: #fff !important;
   background: #2bbef9 !important;
 }

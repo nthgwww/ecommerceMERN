@@ -10,7 +10,7 @@ const ProductItem = () => {
                             <div className="imgWrapper">
                               <img
                                 src="https://danielwellingtons.com.vn/wp-content/uploads/2025/03/z6419853502301_012a4814f1e3d60e17af3071af364414-300x300.jpg"
-                                className="w-100"
+                                className=""
                               />
                               <span className="badge badge-primary">28%</span>
                               <div className="actions">
